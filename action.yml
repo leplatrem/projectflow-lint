@@ -1,0 +1,8 @@
+name: 'ProjectFlow Lint'
+description: 'Check repository compliance with ProjectFlow'
+inputs:
+outputs:
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
